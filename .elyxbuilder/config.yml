@@ -1,0 +1,16 @@
+zipFormat: eaf
+source: reSwaga/src
+buildNameUncompiled: '{name}-{version}'
+buildNameCompiled: '{name}-{version}-3.11'
+ignoreAll:
+- reSwaga/.elyxbuilder/cache/*
+compilationIgnore:
+- reSwaga/src/main.py
+obfuscationConfig:
+  stripDocstrings: true
+  removeLogs: true
+  renameLocals: true
+  encodeStrings: true
+  encodeNumbers: true
+  zlibCompression: false
+  saveMapping: true

@@ -1,0 +1,121 @@
+{
+    "description": "Plugin for sending cards and audio files of the tracks you are listening to right now",
+
+    "ui_platforms_title": "Platforms",
+    "ui_platforms_description": "Here you can configure the platforms",
+    "ui_platforms_alert_login_to_sc": "Login to SoundCloud",
+    "ui_platforms_alert_login_to_ytm": "Login to YouTube Music",
+    "ui_platforms_alert_action_cancel": "Cancel",
+    "ui_platforms_telegram_enabled": "Connect",
+    "ui_platforms_telegram_disabled": "Disconnect",
+    "ui_platforms_login": "Log in",
+
+    "ui_keyboard_loading": "Loading...",
+
+    "ui_keyboard_state_empty": "Platforms are not configured",
+    "ui_keyboard_state_loading": "Loading data...",
+    "ui_keyboard_state_loaded": "loaded",
+
+    "ui_keyboard_options_sendphoto": "Send photo",
+    "ui_keyboard_options_sendfile": "Send file",
+    "ui_keyboard_options_sendtext": "Send text",
+    "ui_keyboard_options_share": "Share with...",
+    "ui_keyboard_options_settings": "Settings",
+
+    "ui_keyboard_track_no_playing": "Nothing is playing",
+
+    "ui_settings_platforms_header": "Platforms settings",
+    "ui_settings_platforms_action_save": "Save",
+
+    "ui_settings_card_header": "Card customization",
+    "ui_settings_card_customization": "Additional customization",
+    "ui_settings_card_customization_background_type": "Background",
+    "ui_settings_card_customization_font": "Font",
+    "ui_settings_card_customization_link_to_other_platforms": "Link to other platforms",
+    "ui_settings_card_customization_link_to_other_platforms_subtext": "Using song.link",
+
+    "ui_settings_customization_header": "Customization",
+    "ui_settings_customization_vertical_keyboard": "Vertical keyboard",
+
+    "ui_settings_stream_header": "Stream to profile",
+    "ui_settings_stream_settings": "Stream settings",
+    "ui_settings_stream_settings_place": "Stream to...",
+    "ui_settings_stream_settings_default_text_hint": "Text that will be shown in the profile when the track is inactive",
+    "ui_settings_stream_settings_default_location": "Save location",
+    "ui_settings_stream_settings_source": "Source",
+    "ui_settings_stream_settings_remove_account_title": "Remove account from stream?",
+    "ui_settings_stream_settings_remove_account_message": "After that the active track will no longer be broadcast to the \"{full_name}\" account",
+    "ui_settings_stream_settings_remove_account_action_negative": "Cancel",
+    "ui_settings_stream_settings_remove_account_action_positive": "Remove",
+    "ui_settings_stream_platforms_not_initialized": "Platforms are not configured",
+    "ui_settings_stream_empty": "No accounts added\nAdd an account by tapping the plus above",
+
+    "ui_settings_stream_add_account_accounts": "Accounts",
+    "ui_settings_stream_add_account_save_current_about": "Save the current \"About\"",
+    "ui_settings_stream_add_account_save_current_location": "Save the current profile location",
+
+    "ui_settings_donate": "Donate",
+    "ui_settings_donate_crypto": "Crypto (GRAM / TON)",
+    "ui_settings_donate_card": "Карта (RU, T-Банк)",
+
+    "ui_send_to_title": "Share...",
+    "ui_send_to_search": "Search chats",
+    "ui_send_to_send_mode": "Sending method",
+    "ui_send_to_send": "Send",
+    "ui_send_to_send_to_duo": "{first_chat} and {second_chat}",
+    "ui_send_to_send_to_many": "{first_chat} and {other_count} others",
+
+    "settings_background_type_track_cover": "Track cover",
+    "settings_background_type_accent_color": "Cover accent color",
+
+    "stream_place_about": "Bio / About",
+    "stream_place_playlist": "Playlist",
+    "stream_place_location": "Location",
+
+    "stream_source_auto": "Auto",
+
+    "send_mode_photo_card": "Card",
+    "send_mode_audio_file": "Audio file",
+    "send_mode_text": "Text",
+
+    "card_type_0": "Horizontal",
+    "card_type_1": "Vertical",
+    "card_type_2": "SupeRRSwaG",
+
+    "token_name_spotify": "Username from stats.fm",
+    "token_name_lastfm": "Username from last.fm",
+    "token_name_ytm": "Cookie",
+    "token_name_other": "API key",
+
+    "bulletin_telegram_enabled": "Telegram connected",
+    "bulletin_telegram_disabled": "Telegram disconnected",
+
+    "bulletin_account_not_valid": "Account #{account} is not valid",
+
+    "bulletin_stream_account_remove_success": "{full_name} was successfully removed from the stream list",
+    "bulletin_stream_account_remove_failed": "Failed to remove the account from the stream list",
+
+    "bulletin_sent_state_soon": "The audio will be sent soon",
+    "bulletin_download_error": "Download failed: {0}",
+
+    "bulletin_send_failed": "Failed to send the track",
+    "bulletin_searching_track": "Looking for the track...",
+    "bulletin_track_not_found": "Track not found",
+    "bulletin_bot_unavailable": "Downloader is unavailable: {0}",
+    "bulletin_bot_downloading": "The service is downloading the track, hold on...",
+    "bulletin_bot_failed": "The service could not download the track: {0}",
+    "bulletin_bot_no_answer": "The service did not answer, try again later",
+    "bulletin_youtube_fallback": "First download failed, looking on second service...",
+
+    "bulletin_sent_to_chats": "Sent to {0} chat(s)",
+    "bulletin_sent_partially": "Sent to {0} of {1} chats",
+
+    "bulletin_cookie_saved": "Cookie successfully saved",
+
+    "alert_platform_disconnect_title": "Disconnect platform?",
+    "alert_platform_disconnect_message": "After that, the platform cannot be used until the next account connection.",
+    "alert_platform_disconnect_positive": "Disconnect",
+
+    "help_spotify": "https://telegra.ph/reSwaga-Authorization-guide-for-Spotify-09-21",
+    "help_sc": "https://telegra.ph/reSwaga-Authorisation-guide-SoundCloud-08-13"
+}

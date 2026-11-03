@@ -1,0 +1,121 @@
+{
+    "description": "Плагин для отправки карточек и аудиофайлов треков что вы сейчас слушаете",
+
+    "ui_platforms_title": "Платформы",
+    "ui_platforms_description": "Здесь вы можете настроить платформы",
+    "ui_platforms_alert_login_to_sc": "Вход в SoundCloud",
+    "ui_platforms_alert_login_to_ytm": "Вход в YouTube Music",
+    "ui_platforms_alert_action_cancel": "Отмена",
+    "ui_platforms_telegram_enabled": "Подключить",
+    "ui_platforms_telegram_disabled": "Отключить",
+    "ui_platforms_login": "Войти",
+
+    "ui_keyboard_loading": "Загрузка...",
+
+    "ui_keyboard_state_empty": "Платформы не настроены",
+    "ui_keyboard_state_loading": "Данные подгружаются...",
+    "ui_keyboard_state_loaded": "loaded",
+
+    "ui_keyboard_options_sendphoto": "Отправить фото",
+    "ui_keyboard_options_sendfile": "Отправить файл",
+    "ui_keyboard_options_sendtext": "Отправить текстом",
+    "ui_keyboard_options_share": "Поделиться с...",
+    "ui_keyboard_options_settings": "Настройки",
+
+    "ui_keyboard_track_no_playing": "Ничего не играет",
+
+    "ui_settings_platforms_header": "Настройки платформ",
+    "ui_settings_platforms_action_save": "Сохранить",
+
+    "ui_settings_card_header": "Кастомизация карточки",
+    "ui_settings_card_customization": "Дополнительная кастомизация",
+    "ui_settings_card_customization_background_type": "Фон",
+    "ui_settings_card_customization_font": "Шрифт",
+    "ui_settings_card_customization_link_to_other_platforms": "Ссылка на другие платформы",
+    "ui_settings_card_customization_link_to_other_platforms_subtext": "С помощью song.link",
+
+    "ui_settings_customization_header": "Кастомизация",
+    "ui_settings_customization_vertical_keyboard": "Вертикальная клавиатура",
+
+    "ui_settings_stream_header": "Стрим в профиль",
+    "ui_settings_stream_settings": "Настройки стрима",
+    "ui_settings_stream_settings_place": "Стримить в...",
+    "ui_settings_stream_settings_default_text_hint": "Текст который будет отображаться в профиле когда трек неактивен",
+    "ui_settings_stream_settings_default_location": "Сохранить локацию",
+    "ui_settings_stream_settings_source": "Источник",
+    "ui_settings_stream_settings_remove_account_title": "Удалить аккаунт из стрима?",
+    "ui_settings_stream_settings_remove_account_message": "После этого на аккаунт \"{full_name}\" перестанет транслироваться активный трек",
+    "ui_settings_stream_settings_remove_account_action_negative": "Отмена",
+    "ui_settings_stream_settings_remove_account_action_positive": "Удалить",
+    "ui_settings_stream_platforms_not_initialized": "Платформы не настроены",
+    "ui_settings_stream_empty": "Нет добавленных аккаунтов\nДобавьте аккаунт нажав на плюсик сверху",
+
+    "ui_settings_stream_add_account_accounts": "Аккаунты",
+    "ui_settings_stream_add_account_save_current_about": "Сохранить текущее \"О себе\"",
+    "ui_settings_stream_add_account_save_current_location": "Сохранить текущее местоположения профиля",
+
+    "ui_settings_donate": "Поддержать",
+    "ui_settings_donate_crypto": "Крипта (GRAM / TON)",
+    "ui_settings_donate_card": "Карта (RU, T-Банк)",
+
+    "ui_send_to_title": "Поделиться...",
+    "ui_send_to_search": "Поиск чатов",
+    "ui_send_to_send_mode": "Метод отправки",
+    "ui_send_to_send": "Отправить",
+    "ui_send_to_send_to_duo": "{first_chat} и {second_chat}",
+    "ui_send_to_send_to_many": "{first_chat} и {other_count} другим",
+
+    "settings_background_type_track_cover": "Обложка трека",
+    "settings_background_type_accent_color": "Акцентный цвет обложки",
+
+    "stream_place_about": "Био / О себе",
+    "stream_place_playlist": "Плейлист",
+    "stream_place_location": "Местоположение",
+
+    "stream_source_auto": "Авто",
+
+    "send_mode_photo_card": "Карточка",
+    "send_mode_audio_file": "Аудиофайл",
+    "send_mode_text": "Текст",
+
+    "card_type_0": "Горизонтальная",
+    "card_type_1": "Вертикальная",
+    "card_type_2": "СуперSwaG",
+
+    "token_name_spotify": "Имя пользователя с stats.fm",
+    "token_name_lastfm": "Имя пользователя с last.fm",
+    "token_name_ytm": "Куки",
+    "token_name_other": "API ключ",
+
+    "bulletin_telegram_enabled": "Telegram подключен",
+    "bulletin_telegram_disabled": "Telegram отключен",
+
+    "bulletin_account_not_valid": "Аккаунт #{account} не валидный",
+
+    "bulletin_stream_account_remove_success": "{full_name} успешно удален из списка стрима",
+    "bulletin_stream_account_remove_failed": "Не удалось удалить аккаунт из списка стрима",
+
+    "bulletin_sent_state_soon": "Аудио скоро будет отправлено",
+    "bulletin_download_error": "Ошибка скачивания: {0}",
+
+    "bulletin_send_failed": "Не удалось отправить трек",
+    "bulletin_searching_track": "Поиск трека...",
+    "bulletin_track_not_found": "Трек не найден",
+    "bulletin_bot_unavailable": "Загрузчик недоступен: {0}",
+    "bulletin_bot_downloading": "Сервис качает трек, подождите...",
+    "bulletin_bot_failed": "Сервис не смог скачать трек: {0}",
+    "bulletin_bot_no_answer": "Сервис не ответил, попробуйте позже",
+    "bulletin_youtube_fallback": "Не вышло скачать, ищу еще...",
+
+    "bulletin_sent_to_chats": "Отправлено в {0} чат(ов)",
+    "bulletin_sent_partially": "Отправлено в {0} из {1} чатов",
+
+    "bulletin_cookie_saved": "Куки успешно сохранены",
+
+    "alert_platform_disconnect_title": "Отключить платформу?",
+    "alert_platform_disconnect_message": "После этого платформу нельзя будет использовать до следующего подключения аккаунта",
+    "alert_platform_disconnect_positive": "Отключить",
+
+    "help_spotify": "https://telegra.ph/reSwaga-Gajd-po-avtorizacii-v-Spotify-09-20",
+    "help_sc": "https://telegra.ph/reSwaga-Gajd-po-avtorizacii-v-SoundCloud-08-13"
+}

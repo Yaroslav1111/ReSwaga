@@ -1,0 +1,24 @@
+name: reSwaga
+description: "{description}"
+id: meeow_reswaga
+version: "2.0.2"
+author: "@meeownnews"
+app_version: ">=12.9.0"
+sdk_version: ">=1.4.5.1"
+icon: remusic/7
+
+# elyxbuilder info
+compiled: true
+buildNum: 35
+buildDate: 2026-08-14
+pythonVer: 3.11
+sourceHash: 16f7c6b1b0a3107bdffd2df8fec7fb1e72fcff6e5a046da9a49111c80ddda89a # Sha256
+elybVer: 0.6.2
+
+# elyxbuilder info
+compiled: true
+buildNum: 36
+buildDate: 2026-09-27
+pythonVer: 3.11
+sourceHash: f5f9b60dcd4383fad232546eade0568aa9dd9c46ac24ca9497845caebb8c1409 # Sha256
+elybVer: 0.6.2
